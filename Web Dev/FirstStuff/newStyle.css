@@ -1,0 +1,69 @@
+button:hover {
+    background-image:none;
+    background-color: #60e4f6;
+}
+
+
+button {
+    background-color: 	#079ac5;
+    border: none;
+    border-radius: 10px; 
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+body {
+    background-color: #0f4a9a;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+h1 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 14px;
+    text-shadow: black;
+    color: white;
+}
+
+#members {
+    display: inline-block;
+    background-color: #04247a;
+    font-family: verdana;
+    font-size: 16px;
+    text-shadow: #000000;
+    color: white;
+}
+
+div {
+    display: inline-block;
+    font-family: verdana;
+    font-size: 16px;
+    text-shadow: #000000;
+    color: white;
+}
+
+#inputA, #inputB, #inputC, #inputD, #inputE {
+    background-color: white;
+    border-radius: 10px; 
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}

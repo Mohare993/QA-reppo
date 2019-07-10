@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+    <title>The Open Movie Database</title>
+</head>
+
+
+<body>
+
+    <h1>The Open Movie Database</h1>
+    <p>Try searching for a film.</p>
+
+    <div class="bs-docs-section" id="examples">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1>Searchy</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="form-inline" onsubmit="searchSubmit(this); return false;">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searchInput">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="moivesfill"></div>
+
+
+
+
+</body>
+
+<script src="omdb.js"></script>
+
+
+</html>

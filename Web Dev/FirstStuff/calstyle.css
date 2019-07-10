@@ -1,0 +1,57 @@
+button:hover {
+    background-image:none;
+    background-color:#3d8ef8;
+}
+
+
+button {
+    background-color: #1ac6ff;
+    border-radius: 10px; 
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+body {
+    background-color: lightblue;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 16px;
+    text-shadow: black;
+    color: white;
+}
+
+div {
+    font-family: verdana;
+    font-size: 16px;
+    text-shadow: #000000;
+    color: white;
+}
+
+#firstnum, #secondnum {
+    background-color: white;
+    border-radius: 10px; 
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
